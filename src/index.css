@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#video{
+    height: 480px;
+    width: 1030px;
+}
