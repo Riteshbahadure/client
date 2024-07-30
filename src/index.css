@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-#video{
-    height: 480px;
-    width: 1030px;
+#video {
+  height: 480px;
+  width: 1030px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.mainnn {
+  scroll-behavior: smooth;
+}
+
+#abc {
+  font-family: 'Dancing Script', cursive;
 }

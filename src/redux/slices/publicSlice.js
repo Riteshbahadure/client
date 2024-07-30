@@ -10,11 +10,14 @@ const publicSlice = createSlice({
         emptyCart: (state, { payload }) => {
             state.cart = []
         },
+        removeFromCart: (state, action) => {
+            state.cart = state.cart.filter(item => item.id !== action.payload);
+        },
     },
     extraReducers: builder => builder
 
 
 })
 
-export const { addToCart, emptyCart } = publicSlice.actions
+export const { addToCart, emptyCart, removeFromCart } = publicSlice.actions
 export default publicSlice.reducer

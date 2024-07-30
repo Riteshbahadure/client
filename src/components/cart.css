@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .transition-all {
+    transition-property: all;
+  }
+  
+  .duration-200 {
+    transition-duration: 200ms;
+  }
+  
+  .ease-linear {
+    transition-timing-function: linear;
+  }
+  
+  .w-96 {
+    width: 24rem;
+  }
+  
+  .h-96 {
+    height: 24rem;
+  }
+  
